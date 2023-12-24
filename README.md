@@ -5,6 +5,6 @@ The programm checks the integrity of two files. Verification occurs using a hash
 - `git clone <link>`
 - `make`
 
-## Use example
+## Usege 
 
 `./file_integrity -i [reference file] [file to check] [-md5 | -sha_256 | -keccak_224 | -keccak_256 | -keccak_384 | -keccak_512]`
