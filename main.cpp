@@ -112,7 +112,10 @@ void keccak(std::map<std::string, std::string> &map_par, Keccak::Bits bits){
 
 int main(int argc, char** argv)
 {
-    std::string par_1 = "./file_integrity -i test.txt a.txt -keccak_512";
+    //std::string par_1 = "./file_integrity -i test.txt a.txt -keccak_512";
+
+    if (argc != 5)
+        printf("USAGE: ./file_integrity -i [reference file] [file to check] [-md5 | -sha_256 | -keccak_224 | -keccak_256 | -keccak_384 | -keccak_512]");
 
     std::string par;
     for(int i = 0; i < argc; i++) {
