@@ -1,7 +1,8 @@
 # File-integrity
 
 ## Build the project
-`make`
+- `git clone <link>`
+- `make`
 
 ## Use examples 
 
