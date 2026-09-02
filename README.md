@@ -2,7 +2,7 @@
 
 A small command-line tool written in C++ that verifies whether two files are
 identical by comparing their cryptographic hashes. It's useful for checking
-that a file hasn't been corrupted or tampered with — for example, confirming a
+that a file hasn't been corrupted or tampered with, for example, confirming a
 downloaded file matches its original.
 
 The program hashes a **reference file** and a **file to check**, prints both
